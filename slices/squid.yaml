@@ -27,13 +27,13 @@ slices:
       - libstdc++6_libs
       - libsystemd0_libs
       - libtdb1_libs
-      - libxml2_libs
+      - libxml2-16_libs
       # Config and directories
       - squid_config
       - squid_var
       - squid-common_icons
     contents:
-      /usr/sbin/squid:
+      /usr/sbin/squid-gnutls:
 
   # Configuration files
   config:
