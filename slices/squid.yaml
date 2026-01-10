@@ -61,8 +61,8 @@ slices:
   # Runtime and cache directories
   var:
     contents:
-      /var/log/squid/: {make: true, mode: 0750}
-      /var/spool/squid/: {make: true, mode: 0750}
+      /var/log/squid/: {make: true, mode: 0755}
+      /var/spool/squid/: {make: true, mode: 0755}
 
   # Authentication helpers
   auth-helpers:

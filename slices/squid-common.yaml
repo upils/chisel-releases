@@ -6,6 +6,8 @@ essential:
 slices:
   # Error page icons and resources
   icons:
+    essential:
+      - squid-langpack_errors
     contents:
       /usr/share/squid/icons/:
 
