@@ -1,0 +1,12 @@
+summary: Integration tests for squid
+
+execute: |
+  # Chisel a minimum number of slices to give us a runnable system that we can
+  # test in.
+  rootfs="$(install-slices base-files_var base-passwd_data squid_bins)"
+
+  # Test that squid binary exists and can show version
+  chroot "${rootfs}/" squid -v | grep -q "Squid Cache: Version"
+  
+  # Test that squid can parse the configuration
+  chroot "${rootfs}/" squid -k parse 2>&1 | grep -q "Processing:"

@@ -1,0 +1,29 @@
+package: squid-common
+
+essential:
+  - squid-common_copyright
+
+slices:
+  # Error page icons and resources
+  icons:
+    essential:
+      - squid-langpack_errors
+    contents:
+      /usr/share/squid/icons/:
+
+  # Documentation files
+  docs:
+    contents:
+      /usr/share/doc/squid-common/README:
+      /usr/share/doc/squid-common/QUICKSTART:
+      /usr/share/doc/squid-common/RELEASENOTES.html:
+      /usr/share/doc/squid-common/squid.conf.documented.gz:
+
+  # Apport integration for bug reporting
+  apport:
+    contents:
+      /usr/share/apport/package-hooks/source_squid.py:
+
+  copyright:
+    contents:
+      /usr/share/doc/squid-common/copyright:
