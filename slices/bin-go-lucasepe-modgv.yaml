@@ -1,0 +1,8 @@
+package: go-lucasepe-modgv
+
+default-track: "0.2"
+
+slices:
+  bins:
+    contents:
+      /usr/bin/modgv:
