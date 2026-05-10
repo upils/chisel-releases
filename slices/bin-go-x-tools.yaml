@@ -1,6 +1,6 @@
 package: bin-go-x-tools
 
-default-track: "0.1.12"
+default-track: "0.1"
 
 
 slices:

@@ -1,9 +1,12 @@
 package: bin-go-x-mod
 
-default-track: "0.8.2"
-
+default-track: "0.8"
 
 slices:
+  bins:
+    contents:
+      /usr/bin/gosumcheck:
+
   src:
     essential:
       bin-go-x-tools_src:
