@@ -1,0 +1,9 @@
+package: bin-go-x-tools
+
+default-track: "0.1.12"
+
+
+slices:
+  src:
+    contents:
+      /usr/share/gocode/src/golang.org/x/tools/**:

@@ -1,9 +1,0 @@
-package: gcc-11-base
-
-essential:
-  gcc-11-base_copyright:
-
-slices:
-  copyright:
-    contents:
-      /usr/share/doc/gcc-11-base/copyright:
