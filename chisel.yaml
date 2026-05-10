@@ -1,5 +1,8 @@
 format: v3
 
+
+release: 26.04
+
 maintenance:
   standard: 2026-04-23
   expanded: 2031-05-29
