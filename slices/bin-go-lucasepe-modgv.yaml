@@ -1,4 +1,4 @@
-package: go-lucasepe-modgv
+package: bin-go-lucasepe-modgv
 
 default-track: "0.2"
 
